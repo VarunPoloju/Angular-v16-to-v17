@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Angular_State_Management_With_Ngrx:build:production"
+              "buildTarget": "Angular_State_Management_With_Ngrx:build:production"
             },
             "development": {
-              "browserTarget": "Angular_State_Management_With_Ngrx:build:development"
+              "buildTarget": "Angular_State_Management_With_Ngrx:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular_State_Management_With_Ngrx:build"
+            "buildTarget": "Angular_State_Management_With_Ngrx:build"
           }
         },
         "test": {
